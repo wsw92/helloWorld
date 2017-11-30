@@ -15,7 +15,7 @@ public class JenkinsTestApplication {
 	}
 	
 	@ResponseBody
-	@GetMapping
+	@GetMapping("/hello")
 	public String hello() {
 		System.out.println("hello world");
 		return "hello world";
